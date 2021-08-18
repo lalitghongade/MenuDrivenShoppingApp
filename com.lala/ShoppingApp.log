@@ -1,0 +1,18 @@
+[main] 2021-08-18 13:47:49 INFO  com.lala.Main  - logger succefully configured
+[main] 2021-08-18 13:55:11 INFO  com.lala.Menu  - Welecome to the Shopping App
+[main] 2021-08-18 13:58:42 INFO  com.lala.Menu  - -----------------------------
+[main] 2021-08-18 13:58:42 INFO  com.lala.Menu  - Welecome to the Shopping App
+[main] 2021-08-18 13:58:42 INFO  com.lala.Menu  - -----------------------------
+[main] 2021-08-18 13:58:42 INFO  com.lala.Menu  - 1. Login As Customer
+[main] 2021-08-18 13:58:42 INFO  com.lala.Menu  - 2. Login As Employee
+[main] 2021-08-18 13:58:42 INFO  com.lala.Menu  - 3. Register As Customer
+[main] 2021-08-18 13:58:42 INFO  com.lala.Menu  - -----------------------------
+[main] 2021-08-18 13:59:24 INFO  com.lala.Menu  - -----------------------------
+[main] 2021-08-18 13:59:24 INFO  com.lala.Menu  - Welecome to the Shopping App
+[main] 2021-08-18 13:59:24 INFO  com.lala.Menu  - -----------------------------
+[main] 2021-08-18 13:59:24 INFO  com.lala.Menu  - 1. Login As Customer
+[main] 2021-08-18 13:59:24 INFO  com.lala.Menu  - 2. Login As Employee
+[main] 2021-08-18 13:59:24 INFO  com.lala.Menu  - 3. Register As Customer
+[main] 2021-08-18 13:59:24 INFO  com.lala.Menu  - -----------------------------
+[main] 2021-08-18 13:59:24 INFO  com.lala.Menu  - -----------------------------
+[main] 2021-08-18 13:59:24 INFO  com.lala.Menu  - Enter Your Choice
