@@ -1,4 +1,4 @@
-package com.lala;
+package presentation;
 
 import java.util.Scanner;
 

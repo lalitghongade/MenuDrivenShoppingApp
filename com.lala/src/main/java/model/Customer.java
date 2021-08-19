@@ -1,65 +1,64 @@
 package model;
 
+
+
 public class Customer {
-	private int customerId;
-	private String username;
-	private String email;
-	private String password;
-	
-	
-	
-	//empty constructor
-	public Customer() {
-		
-		// TODO Auto-generated constructor stub
-	}
-	
-	
-	//constructor using fields
-	public Customer(int customerId, String username, String email, String password) {
-		super();
-		this.customerId = customerId;
-		this.username = username;
-		this.email = email;
-		this.password = password;
-	}
+	 private int customerId;
+	    private String customerName;
+	    private String customerUsername;
+	    private String customerPassword;
+	    private boolean customerLoginSession = false;
 
+	    public Customer() {
+	    }
 
+	    public int getCustomerId() {
+	        return customerId;
+	    }
 
-	@Override
-	public String toString() {
-		return "Customer [customerId=" + customerId + ", username=" + username + ", email=" + email + ", password="
-				+ password + "]";
-	}
+	    public void setCustomerId(int customerId) {
+	        this.customerId = customerId;
+	    }
 
+	    public String getCustomerName() {
+	        return customerName;
+	    }
 
-	//getters and setters genrated
-	public int getCustomerId() {
-		return customerId;
-	}
-	public void setCustomerId(int customerId) {
-		this.customerId = customerId;
-	}
-	public String getUsername() {
-		return username;
-	}
-	public void setUsername(String username) {
-		this.username = username;
-	}
-	public String getEmail() {
-		return email;
-	}
-	public void setEmail(String email) {
-		this.email = email;
-	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
-	
-	
-	
+	    public void setCustomerName(String customerName) {
+	        this.customerName = customerName;
+	    }
 
-}
+	    public String getCustomerUsername() {
+	        return customerUsername;
+	    }
+
+	    public void setCustomerUsername(String customerUsername) {
+	        this.customerUsername = customerUsername;
+	    }
+
+	    public String getCustomerPassword() {
+	        return customerPassword;
+	    }
+
+	    public void setCustomerPassword(String customerPassword) {
+	        this.customerPassword = customerPassword;
+	    }
+
+	    public boolean isCustomerLoginSession() {
+	        return customerLoginSession;
+	    }
+
+	    public void setCustomerLoginSession(boolean customerLoginSession) {
+	        this.customerLoginSession = customerLoginSession;
+	    }
+
+	    @Override
+	    public String toString() {
+	        return "Customer{" +
+	                "customerId=" + customerId +
+	                ", customerName='" + customerName + '\'' +
+	                ", customerUsername='" + customerUsername + '\'' +
+	                ", customerPassword='" + customerPassword + '\'' +
+	                '}';
+	    }
+	}
