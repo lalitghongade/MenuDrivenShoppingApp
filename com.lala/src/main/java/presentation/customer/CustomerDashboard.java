@@ -5,6 +5,8 @@ import java.util.Scanner;
 import exception.BusinessException;
 import model.Customer;
 import model.ProductCategory;
+import presentation.CartMenu;
+import presentation.order.OrderMenu;
 import presentation.product.ProductCategoryMenu;
 import service.ProductCategoryService;
 import service.serviceDao.ProductCategoryServiceDAO;
@@ -17,7 +19,8 @@ public class CustomerDashboard {
 	    Scanner scanner = new Scanner(System.in);
 	    ProductCategoryServiceDAO productCategoryServiceDAO = new ProductCategoryService();
 	    ProductCategoryMenu productCategoryMenu = new ProductCategoryMenu();
-
+	    OrderMenu orderMenu= new OrderMenu();
+	    CartMenu cartMenu =new CartMenu();
 	    public void customerDashboard(Customer customer) {
 	        if (customer.isCustomerLoginSession()) {
 	            int dashboardOption = 0;
@@ -75,10 +78,10 @@ public class CustomerDashboard {
 
 	                            } while (myAccountOption != 1);
 	                        case 2:
-	                            log.info("| 2. My Orders                 |");
-	                            break;
+	                        	 orderMenu.viewOrder(customer);
+	                             break;
 	                        case 3:
-	                            log.info("| 3. My Cart                   |");
+	                        	cartMenu.viewCart(customer);
 	                            break;
 	                        case 4:
 	                            int productCategoryChoice;
