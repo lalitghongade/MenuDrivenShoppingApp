@@ -2,63 +2,73 @@ package model;
 
 public class Order {
 
-	private int orderId;
-	private double orderTotal;
-	private int quantity;
-	private OrderStatus orderStatus;
-	
-	public Order() {
-		
-	}
+	   private int orderId;
+	    private Product product;
+	    private Customer customer;
+	    private double orderTotal;
+	    private int orderQuantity;
+	    private OrderStatus orderStatus;
 
-	public int getOrderId() {
-		return orderId;
-	}
+	    public Order() {
+	    }
 
-	public void setOrderId(int orderId) {
-		this.orderId = orderId;
-	}
+	    public int getOrderId() {
+	        return orderId;
+	    }
 
-	public double getOrderTotal() {
-		return orderTotal;
-	}
+	    public void setOrderId(int orderId) {
+	        this.orderId = orderId;
+	    }
 
-	public void setOrderTotal(double orderTotal) {
-		this.orderTotal = orderTotal;
-	}
+	    public Product getProduct() {
+	        return product;
+	    }
 
-	public int getQuantity() {
-		return quantity;
-	}
+	    public void setProduct(Product product) {
+	        this.product = product;
+	    }
 
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
-	}
+	    public Customer getCustomer() {
+	        return customer;
+	    }
 
-	public OrderStatus getOrderStatus() {
-		return orderStatus;
-	}
+	    public void setCustomer(Customer customer) {
+	        this.customer = customer;
+	    }
 
-	public void setOrderStatus(OrderStatus orderStatus) {
-		this.orderStatus = orderStatus;
-	}
+	    public double getOrderTotal() {
+	        return orderTotal;
+	    }
 
-	public Order(int orderId, double orderTotal, int quantity, OrderStatus orderStatus) {
-		super();
-		this.orderId = orderId;
-		this.orderTotal = orderTotal;
-		this.quantity = quantity;
-		this.orderStatus = orderStatus;
-	}
+	    public void setOrderTotal(double orderTotal) {
+	        this.orderTotal = orderTotal;
+	    }
 
-	@Override
-	public String toString() {
-		return "Order [orderId=" + orderId + ", orderTotal=" + orderTotal + ", quantity=" + quantity + ", orderStatus="
-				+ orderStatus + "]";
+	    public int getOrderQuantity() {
+	        return orderQuantity;
+	    }
+
+	    public void setOrderQuantity(int orderQuantity) {
+	        this.orderQuantity = orderQuantity;
+	    }
+
+	    public OrderStatus getOrderStatus() {
+	        return orderStatus;
+	    }
+
+	    public void setOrderStatus(OrderStatus orderStatus) {
+	        this.orderStatus = orderStatus;
+	    }
+
+	    @Override
+	    public String toString() {
+	        return "Order{" +
+	                "orderId=" + orderId +
+	                ", product=" + product +
+	                ", customer=" + customer +
+	                ", orderTotal=" + orderTotal +
+	                ", orderQuantity=" + orderQuantity +
+	                ", orderStatus=" + orderStatus +
+	                '}';
+	    }
 	}
-	
-	
-	
-	
-		
-}

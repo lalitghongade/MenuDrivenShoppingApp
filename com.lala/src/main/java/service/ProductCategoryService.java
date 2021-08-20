@@ -1,7 +1,7 @@
 package service;
 
 import dao.ProductCategoryDAO;
-import dao.impl.ProductCategoryDAOImpl;
+import dao.implementation.ProductCategoryDAOImpl;
 import exception.BusinessException;
 import model.ProductCategory;
 import org.apache.log4j.Logger;

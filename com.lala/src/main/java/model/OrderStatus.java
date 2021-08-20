@@ -1,40 +1,33 @@
 package model;
 
 public class OrderStatus {
+	private int orderStatusId;
+    private String orderStatusType;
 
-		private int statusId;
-		private String statusType;
-		
-		public OrderStatus() {
-		}
+    public OrderStatus() {
+    }
 
-		public int getStatusId() {
-			return statusId;
-		}
+    public int getOrderStatusId() {
+        return orderStatusId;
+    }
 
-		public void setStatusId(int statusId) {
-			this.statusId = statusId;
-		}
+    public void setOrderStatusId(int orderStatusId) {
+        this.orderStatusId = orderStatusId;
+    }
 
-		public String getStatusType() {
-			return statusType;
-		}
+    public String getOrderStatusType() {
+        return orderStatusType;
+    }
 
-		public void setStatusType(String statusType) {
-			this.statusType = statusType;
-		}
+    public void setOrderStatusType(String orderStatusType) {
+        this.orderStatusType = orderStatusType;
+    }
 
-		public OrderStatus(int statusId, String statusType) {
-			super();
-			this.statusId = statusId;
-			this.statusType = statusType;
-		}
-
-		@Override
-		public String toString() {
-			return "OrderStatus [statusId=" + statusId + ", statusType=" + statusType + "]";
-		}
-		
-		
-		
-		}
+    @Override
+    public String toString() {
+        return "OrderStatus{" +
+                "orderStatusId=" + orderStatusId +
+                ", orderStatusType='" + orderStatusType + '\'' +
+                '}';
+    }
+}

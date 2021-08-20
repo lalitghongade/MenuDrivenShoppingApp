@@ -1,6 +1,6 @@
 package dao.implementation;
 import dao.ProductCategoryDAO;
-import dao.utildb.MySQLDBConnection;
+import dbConnection.MySQLDBConnection;
 import exception.BusinessException;
 import model.ProductCategory;
 import org.apache.log4j.Logger;
@@ -19,12 +19,12 @@ public class ProductCategoryDAOImpl implements ProductCategoryDAO {
     public List<ProductCategory> viewProductCategory() throws BusinessException {
         List<ProductCategory> productCategoryList = new ArrayList<>();
         try(Connection connection = MySQLDBConnection.getConnection()) {
-            String sql = "SELECT productCategoryId, productCategoryName FROM productCategory";
+            String sql = "SELECT productCategoryid, productCategoryName FROM productCategory";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
                 ProductCategory productCategory = new ProductCategory();
-                productCategory.setProductCategoryId(resultSet.getInt("productCategoryId"));
+                productCategory.setProductCategoryId(resultSet.getInt("productCategoryid"));
                 productCategory.setProductCategoryName(resultSet.getString("productCategoryName"));
                 productCategoryList.add(productCategory);
             }

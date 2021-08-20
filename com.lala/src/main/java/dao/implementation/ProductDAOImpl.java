@@ -16,11 +16,11 @@ public class ProductDAOImpl implements ProductDAO {
     public int createProduct(Product product) throws BusinessException {
         int isSucessfull = 0;
         try(Connection connection = MySQLDBConnection.getConnection()) {
-            String sql = "INSERT INTO product(productName, productPrice, productCategory) VALUES (?,?,?)";
+            String sql = "INSERT INTO products(productName, productPrice, productCategoryId) VALUES (?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1,product.getProductName());
             preparedStatement.setDouble(2, product.getProductPrice());
-            preparedStatement.setInt(3, product.getCategory().getProductCategoryId());
+            preparedStatement.setInt(3, product.getProductCategory().getProductCategoryId());
 
             isSucessfull = preparedStatement.executeUpdate();
             if (isSucessfull == 0) {

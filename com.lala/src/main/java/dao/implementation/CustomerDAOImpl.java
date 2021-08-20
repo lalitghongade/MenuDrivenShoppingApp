@@ -19,7 +19,7 @@ public class CustomerDAOImpl implements CustomerDAO {
     public int createCustomer(Customer customer) throws BusinessException {
         int isSucessfull;
         try(Connection connection = MySQLDBConnection.getConnection()) {
-            String sql = "INSERT INTO Customer(customerName, customerUsername, customerPassword) VALUES (?,?,?)";
+            String sql = "INSERT INTO customers(name,username,password) VALUES (?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, customer.getCustomerName());
             preparedStatement.setString(2, customer.getCustomerUsername());
@@ -45,7 +45,7 @@ public class CustomerDAOImpl implements CustomerDAO {
     public List<Customer> viewCustomer() throws BusinessException {
         List<Customer> customerList = new ArrayList<>();
         try(Connection connection = MySQLDBConnection.getConnection()) {
-            String sql = "SELECT customerId, customerName, customerUsername, customerPassword FROM Customer";
+            String sql = "SELECT customerId, name, username, password FROM customers";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
@@ -69,7 +69,7 @@ public class CustomerDAOImpl implements CustomerDAO {
     @Override
     public boolean isUsernameAlreadyExist(String customerUsername) throws BusinessException {
         try(Connection connection = MySQLDBConnection.getConnection()) {
-            String sql = "SELECT customerUsername FROM Customer WHERE customerUsername = ?";
+            String sql = "SELECT username FROM customers WHERE username = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, customerUsername);
             ResultSet resultSet = preparedStatement.executeQuery();
@@ -86,7 +86,7 @@ public class CustomerDAOImpl implements CustomerDAO {
     @Override
     public boolean isPasswordAlreadyExist(String customerUsername, String customerPassword) throws BusinessException {
         try(Connection connection = MySQLDBConnection.getConnection()) {
-            String sql = "SELECT customerPassword FROM Customer WHERE customerPassword = ? AND customerUsername = ?";
+            String sql = "SELECT password FROM customers WHERE password = ? AND username = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, customerPassword);
             preparedStatement.setString(2, customerUsername);

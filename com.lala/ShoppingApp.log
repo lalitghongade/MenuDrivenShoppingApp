@@ -71,3 +71,1183 @@
 [main] 2021-08-18 14:27:42 INFO  com.lala.Menu  - Enter Your Choice
 [main] 2021-08-18 14:27:46 INFO  com.lala.Menu  - Thank You for your valuable Time 
 [main] 2021-08-18 14:27:46 INFO  com.lala.Menu  - See you soon....Bye Bye!!!
+[main] 2021-08-20 10:36:10 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 10:36:10 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 10:36:10 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 10:36:11 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 10:36:12 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 10:36:13 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 10:36:13 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 10:36:13 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 10:36:13 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 10:36:13 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 10:36:13 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 10:36:13 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 10:36:21 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 10:36:21 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 10:36:21 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 10:36:21 INFO  presentation.customer.CustomerLogin  - |      Register New Customer      |
+[main] 2021-08-20 10:36:21 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 10:36:21 INFO  presentation.customer.CustomerLogin  - | Hello..!!                       |
+[main] 2021-08-20 10:36:21 INFO  presentation.customer.CustomerLogin  - | Welcome                         |
+[main] 2021-08-20 10:36:21 INFO  presentation.customer.CustomerLogin  - | Use this form to register       |
+[main] 2021-08-20 10:36:21 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 10:36:21 INFO  presentation.customer.CustomerLogin  - | Enter Name :                    |
+[main] 2021-08-20 10:36:28 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 10:36:38 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 10:36:38 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 10:36:38 WARN  presentation.customer.CustomerLogin  - The username you entered is not valid.
+
+Your username needs to:
+ * include only lowercase characters.
+ * be at least 5 characters long.
+[main] 2021-08-20 10:36:40 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 10:36:40 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 10:36:40 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 10:36:40 INFO  presentation.customer.CustomerLogin  - |      Register New Customer      |
+[main] 2021-08-20 10:36:40 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 10:36:40 INFO  presentation.customer.CustomerLogin  - | Hello..!!                       |
+[main] 2021-08-20 10:36:40 INFO  presentation.customer.CustomerLogin  - | Welcome                         |
+[main] 2021-08-20 10:36:40 INFO  presentation.customer.CustomerLogin  - | Use this form to register       |
+[main] 2021-08-20 10:36:40 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 10:36:40 INFO  presentation.customer.CustomerLogin  - | Enter Name :                    |
+[main] 2021-08-20 10:36:54 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 10:36:59 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 10:36:59 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 10:36:59 WARN  presentation.customer.CustomerLogin  - The username you entered is not valid.
+
+Your username needs to:
+ * include only lowercase characters.
+ * be at least 5 characters long.
+[main] 2021-08-20 10:37:01 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 10:37:01 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 10:37:01 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 10:37:01 INFO  presentation.customer.CustomerLogin  - |      Register New Customer      |
+[main] 2021-08-20 10:37:01 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 10:37:01 INFO  presentation.customer.CustomerLogin  - | Hello..!!                       |
+[main] 2021-08-20 10:37:01 INFO  presentation.customer.CustomerLogin  - | Welcome                         |
+[main] 2021-08-20 10:37:01 INFO  presentation.customer.CustomerLogin  - | Use this form to register       |
+[main] 2021-08-20 10:37:01 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 10:37:01 INFO  presentation.customer.CustomerLogin  - | Enter Name :                    |
+[main] 2021-08-20 10:37:12 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 10:37:17 WARN  dao.implementation.CustomerDAOImpl  - java.sql.SQLSyntaxErrorException: Table 'revature_practice.Customer' doesn't exist
+[main] 2021-08-20 10:37:17 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 10:37:17 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 10:37:17 WARN  presentation.customer.CustomerLogin  - Internal error occurred! contact systemAdmin
+[main] 2021-08-20 10:37:19 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 10:37:19 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 10:37:19 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 10:37:19 INFO  presentation.customer.CustomerLogin  - |      Register New Customer      |
+[main] 2021-08-20 10:37:19 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 10:37:19 INFO  presentation.customer.CustomerLogin  - | Hello..!!                       |
+[main] 2021-08-20 10:37:19 INFO  presentation.customer.CustomerLogin  - | Welcome                         |
+[main] 2021-08-20 10:37:19 INFO  presentation.customer.CustomerLogin  - | Use this form to register       |
+[main] 2021-08-20 10:37:19 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 10:37:19 INFO  presentation.customer.CustomerLogin  - | Enter Name :                    |
+[main] 2021-08-20 12:12:10 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 12:12:10 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 12:12:10 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:12:11 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 12:12:12 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 12:12:13 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 12:12:13 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 12:12:13 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 12:12:13 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 12:12:13 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 12:12:13 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:12:13 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 12:12:16 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 12:12:16 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:12:16 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 12:12:16 INFO  presentation.customer.CustomerLogin  - |      Register New Customer      |
+[main] 2021-08-20 12:12:16 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:12:16 INFO  presentation.customer.CustomerLogin  - | Hello..!!                       |
+[main] 2021-08-20 12:12:16 INFO  presentation.customer.CustomerLogin  - | Welcome                         |
+[main] 2021-08-20 12:12:16 INFO  presentation.customer.CustomerLogin  - | Use this form to register       |
+[main] 2021-08-20 12:12:16 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:12:16 INFO  presentation.customer.CustomerLogin  - | Enter Name :                    |
+[main] 2021-08-20 12:12:25 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 12:12:36 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 12:12:40 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:12:40 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:12:40 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:12:40 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:12:40 WARN  presentation.customer.CustomerLogin  - The password you entered is not valid. 
+
+Your password needs to:
+ * include both lower and uppercase characters.
+ * include at least one number or symbol.
+ * be at least 8 characters long.
+[main] 2021-08-20 12:12:42 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:12:42 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:12:42 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 12:12:42 INFO  presentation.customer.CustomerLogin  - |      Register New Customer      |
+[main] 2021-08-20 12:12:42 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:12:42 INFO  presentation.customer.CustomerLogin  - | Hello..!!                       |
+[main] 2021-08-20 12:12:42 INFO  presentation.customer.CustomerLogin  - | Welcome                         |
+[main] 2021-08-20 12:12:42 INFO  presentation.customer.CustomerLogin  - | Use this form to register       |
+[main] 2021-08-20 12:12:42 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:12:42 INFO  presentation.customer.CustomerLogin  - | Enter Name :                    |
+[main] 2021-08-20 12:12:55 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 12:13:03 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:13:03 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:13:03 WARN  presentation.customer.CustomerLogin  - The username you entered is not valid.
+
+Your username needs to:
+ * include only lowercase characters.
+ * be at least 5 characters long.
+[main] 2021-08-20 12:13:05 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:13:05 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:13:05 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 12:13:05 INFO  presentation.customer.CustomerLogin  - |      Register New Customer      |
+[main] 2021-08-20 12:13:05 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:13:05 INFO  presentation.customer.CustomerLogin  - | Hello..!!                       |
+[main] 2021-08-20 12:13:05 INFO  presentation.customer.CustomerLogin  - | Welcome                         |
+[main] 2021-08-20 12:13:05 INFO  presentation.customer.CustomerLogin  - | Use this form to register       |
+[main] 2021-08-20 12:13:05 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:13:05 INFO  presentation.customer.CustomerLogin  - | Enter Name :                    |
+[main] 2021-08-20 12:13:17 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 12:13:23 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 12:13:52 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:13:52 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:13:53 INFO  presentation.customer.CustomerLogin  - Congratulations!!!
+[main] 2021-08-20 12:13:53 INFO  presentation.customer.CustomerLogin  - Your account has been created and verified.
+[main] 2021-08-20 12:13:53 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:13:54 INFO  presentation.customer.CustomerLogin  - Thanks for joining us, khushi
+[main] 2021-08-20 12:13:55 INFO  presentation.customer.CustomerLogin  - We're so pleased to have you here.
+[main] 2021-08-20 12:13:55 INFO  presentation.customer.CustomerLogin  - Team Click To Cart.
+[main] 2021-08-20 12:13:55 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:13:55 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 12:13:55 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 12:13:55 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:13:56 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 12:13:57 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 12:13:58 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 12:13:58 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 12:13:58 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 12:13:58 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 12:13:58 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 12:13:58 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:13:58 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 12:14:02 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 12:14:02 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:14:02 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 12:14:02 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 12:14:02 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 12:14:02 INFO  presentation.customer.CustomerLogin  - | Welcome To Click To Cart...     |
+[main] 2021-08-20 12:14:02 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 12:14:02 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:14:02 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 12:14:34 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:14:43 WARN  dao.implementation.CustomerSearchDAOImpl  - java.sql.SQLSyntaxErrorException: Table 'revature_practice.customer' doesn't exist
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:14:43 WARN  presentation.customer.CustomerLogin  - Internal error occurred! contact systemAdmin
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - | Welcome To Click To Cart...     |
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:14:43 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 12:17:13 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 12:17:13 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 12:17:13 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:17:14 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 12:17:15 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 12:17:16 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 12:17:16 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 12:17:16 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 12:17:16 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 12:17:16 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 12:17:16 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:17:16 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 12:17:20 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 12:17:20 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:17:20 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 12:17:20 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 12:17:20 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 12:17:20 INFO  presentation.customer.CustomerLogin  - | Welcome To Click To Cart...     |
+[main] 2021-08-20 12:17:20 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 12:17:20 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:17:20 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 12:17:40 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:17:47 WARN  dao.implementation.CustomerSearchDAOImpl  - java.sql.SQLException: Column 'customerName' not found.
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:17:47 WARN  presentation.customer.CustomerLogin  - Internal error occurred! contact systemAdmin
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - | Welcome To Click To Cart...     |
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:17:47 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 12:25:04 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 12:25:04 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 12:25:04 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:25:05 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 12:25:06 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 12:25:07 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 12:25:07 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 12:25:07 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 12:25:07 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 12:25:07 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 12:25:07 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:25:07 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 12:25:14 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 12:25:14 INFO  presentation.Main  - Under Construction Employee Login
+[main] 2021-08-20 12:25:14 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 12:25:14 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 12:25:14 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:25:15 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 12:25:16 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 12:25:17 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 12:25:17 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 12:25:17 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 12:25:17 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 12:25:17 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 12:25:17 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:25:17 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 12:26:16 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 12:26:16 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:26:16 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 12:26:16 INFO  presentation.customer.CustomerLogin  - |      Register New Customer      |
+[main] 2021-08-20 12:26:16 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:26:16 INFO  presentation.customer.CustomerLogin  - | Hello..!!                       |
+[main] 2021-08-20 12:26:16 INFO  presentation.customer.CustomerLogin  - | Welcome                         |
+[main] 2021-08-20 12:26:16 INFO  presentation.customer.CustomerLogin  - | Use this form to register       |
+[main] 2021-08-20 12:26:16 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:26:16 INFO  presentation.customer.CustomerLogin  - | Enter Name :                    |
+[main] 2021-08-20 12:26:26 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 12:26:35 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 12:26:51 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:26:51 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:26:53 INFO  presentation.customer.CustomerLogin  - Congratulations!!!
+[main] 2021-08-20 12:26:53 INFO  presentation.customer.CustomerLogin  - Your account has been created and verified.
+[main] 2021-08-20 12:26:53 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:26:54 INFO  presentation.customer.CustomerLogin  - Thanks for joining us, shobhit
+[main] 2021-08-20 12:26:55 INFO  presentation.customer.CustomerLogin  - We're so pleased to have you here.
+[main] 2021-08-20 12:26:55 INFO  presentation.customer.CustomerLogin  - Team Click To Cart.
+[main] 2021-08-20 12:26:55 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:26:55 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 12:26:55 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 12:26:55 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:26:56 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 12:26:57 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 12:26:58 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 12:26:58 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 12:26:58 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 12:26:58 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 12:26:58 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 12:26:58 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:26:58 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 12:27:03 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 12:27:03 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:27:03 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 12:27:03 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 12:27:03 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 12:27:03 INFO  presentation.customer.CustomerLogin  - | Welcome To Click To Cart...     |
+[main] 2021-08-20 12:27:03 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 12:27:03 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:27:03 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 12:27:20 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:27:34 WARN  dao.implementation.CustomerSearchDAOImpl  - java.sql.SQLException: Column 'customerName' not found.
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:27:34 WARN  presentation.customer.CustomerLogin  - Internal error occurred! contact systemAdmin
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - | Welcome To Click To Cart...     |
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:27:34 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 12:32:14 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 12:32:14 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 12:32:14 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:32:15 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 12:32:16 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 12:32:17 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 12:32:17 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 12:32:17 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 12:32:17 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 12:32:17 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 12:32:17 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 12:32:17 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 12:32:19 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 12:32:19 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 12:32:19 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 12:32:19 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 12:32:19 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 12:32:19 INFO  presentation.customer.CustomerLogin  - | Welcome To Click To Cart...     |
+[main] 2021-08-20 12:32:19 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 12:32:19 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:32:19 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 12:32:28 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 12:32:36 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 12:32:36 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 12:32:37 INFO  presentation.customer.CustomerLogin  - 
+Login Sucessfull!!!
+[main] 2021-08-20 12:32:38 INFO  presentation.customer.CustomerLogin  - Please wait...Redirecting to your Dashboard
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 12:32:40 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 12:33:27 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 12:33:28 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 12:33:28 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 12:33:28 INFO  presentation.customer.CustomerDashboard  - |          My Account          |
+[main] 2021-08-20 12:33:28 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 12:33:28 INFO  presentation.customer.CustomerDashboard  - | Hello!!, lalit
+[main] 2021-08-20 12:33:28 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 12:33:28 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 12:33:28 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 12:33:28 INFO  presentation.customer.CustomerDashboard  - | 1. Goto Dashboard            |
+[main] 2021-08-20 12:33:28 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 12:33:28 INFO  presentation.customer.CustomerDashboard  - | Enter your choice...         |
+[main] 2021-08-20 12:33:35 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+
+[main] 2021-08-20 12:33:35 INFO  presentation.customer.CustomerDashboard  - Back to Dashboard
+[main] 2021-08-20 12:33:35 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 12:33:36 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:19:13 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 13:19:13 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 13:19:13 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:19:14 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 13:19:15 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 13:19:16 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 13:19:16 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 13:19:16 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 13:19:16 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 13:19:16 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 13:19:16 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:19:16 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 13:19:19 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 13:19:19 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 13:19:19 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 13:19:19 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 13:19:19 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 13:19:19 INFO  presentation.customer.CustomerLogin  - | Welcome To Click To Cart...     |
+[main] 2021-08-20 13:19:19 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 13:19:19 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:19:19 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 13:19:26 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:19:26 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 13:19:26 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 13:19:26 WARN  presentation.customer.CustomerLogin  - That ClickToCart username doesn't exist.
+[main] 2021-08-20 13:19:27 WARN  presentation.customer.CustomerLogin  - Enter a different username or get a new one.
+[main] 2021-08-20 13:19:28 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 13:19:28 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 13:19:28 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 13:19:28 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 13:19:28 INFO  presentation.customer.CustomerLogin  - | Welcome To Click To Cart...     |
+[main] 2021-08-20 13:19:28 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 13:19:28 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:19:28 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 13:29:49 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 13:29:49 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 13:29:49 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:29:50 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 13:29:51 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 13:29:52 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 13:29:52 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 13:29:52 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 13:29:52 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 13:29:52 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 13:29:52 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:29:52 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 13:30:02 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 13:30:02 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 13:30:02 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 13:30:02 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 13:30:02 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 13:30:02 INFO  presentation.customer.CustomerLogin  - | Welcome To ShopingApp...     |
+[main] 2021-08-20 13:30:02 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 13:30:02 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:30:02 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 13:30:15 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:30:15 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 13:30:15 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 13:30:15 WARN  presentation.customer.CustomerLogin  - That username doesn't exist.
+[main] 2021-08-20 13:30:15 WARN  presentation.customer.CustomerLogin  - Enter a different username or get a new one.
+[main] 2021-08-20 13:30:16 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 13:30:16 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 13:30:16 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 13:30:16 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 13:30:16 INFO  presentation.customer.CustomerLogin  - | Welcome To ShopingApp...     |
+[main] 2021-08-20 13:30:16 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 13:30:16 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:30:16 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 13:30:50 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 13:31:00 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:31:00 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 13:31:01 INFO  presentation.customer.CustomerLogin  - 
+Login Sucessfull!!!
+[main] 2021-08-20 13:31:02 INFO  presentation.customer.CustomerLogin  - Please wait...Redirecting to your Dashboard
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:31:04 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:31:12 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:31:13 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:31:14 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:31:14 INFO  presentation.customer.CustomerDashboard  - |         All Categories       |
+[main] 2021-08-20 13:31:14 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:31:14 INFO  presentation.customer.CustomerDashboard  - | 1. laptops
+[main] 2021-08-20 13:31:14 INFO  presentation.customer.CustomerDashboard  - | 2. mobiles
+[main] 2021-08-20 13:31:14 INFO  presentation.customer.CustomerDashboard  - | 3. cloths
+[main] 2021-08-20 13:31:14 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:31:14 INFO  presentation.customer.CustomerDashboard  - | Enter your choice            |
+[main] 2021-08-20 13:31:19 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:31:19 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:31:19 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:31:19 INFO  presentation.product.ProductCategoryMenu  - |           Fashion            |
+[main] 2021-08-20 13:31:19 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:31:19 WARN  dao.implementation.ProductSearchDAOImpl  - java.sql.SQLSyntaxErrorException: Table 'revature_practice.product' doesn't exist
+[main] 2021-08-20 13:31:19 WARN  presentation.product.ProductCategoryMenu  - Internal error occurred! contact systemAdmin
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:31:20 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:33:43 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 13:33:43 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 13:33:43 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:33:44 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 13:33:45 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 13:33:46 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 13:33:46 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 13:33:46 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 13:33:46 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 13:33:46 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 13:33:46 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:33:46 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 13:33:48 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 13:33:48 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 13:33:48 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 13:33:48 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 13:33:48 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 13:33:48 INFO  presentation.customer.CustomerLogin  - | Welcome To ShopingApp...     |
+[main] 2021-08-20 13:33:48 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 13:33:48 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:33:48 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 13:33:55 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 13:34:02 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:34:02 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 13:34:03 INFO  presentation.customer.CustomerLogin  - 
+Login Sucessfull!!!
+[main] 2021-08-20 13:34:04 INFO  presentation.customer.CustomerLogin  - Please wait...Redirecting to your Dashboard
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:34:07 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:34:13 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:34:13 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:34:14 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:34:14 INFO  presentation.customer.CustomerDashboard  - |         All Categories       |
+[main] 2021-08-20 13:34:14 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:34:14 INFO  presentation.customer.CustomerDashboard  - | 1. laptops
+[main] 2021-08-20 13:34:14 INFO  presentation.customer.CustomerDashboard  - | 2. mobiles
+[main] 2021-08-20 13:34:14 INFO  presentation.customer.CustomerDashboard  - | 3. cloths
+[main] 2021-08-20 13:34:14 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:34:14 INFO  presentation.customer.CustomerDashboard  - | Enter your choice            |
+[main] 2021-08-20 13:34:16 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:34:16 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:34:16 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:34:16 INFO  presentation.product.ProductCategoryMenu  - |           Fashion            |
+[main] 2021-08-20 13:34:16 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:34:16 INFO  presentation.product.ProductCategoryMenu  - | 1. lenovo 400s
+[main] 2021-08-20 13:34:16 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:34:16 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice...         |
+[main] 2021-08-20 13:34:20 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:34:20 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:34:20 WARN  dao.implementation.ProductSearchDAOImpl  - java.sql.SQLSyntaxErrorException: Table 'revature_practice.product' doesn't exist
+[main] 2021-08-20 13:34:20 WARN  presentation.product.ProductCategoryMenu  - Internal error occurred! contact systemAdmin
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:34:21 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:35:59 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 13:35:59 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 13:35:59 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:36:00 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 13:36:01 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 13:36:02 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 13:36:02 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 13:36:02 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 13:36:02 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 13:36:02 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 13:36:02 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:36:02 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 13:36:06 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 13:36:06 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 13:36:06 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 13:36:06 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 13:36:06 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 13:36:06 INFO  presentation.customer.CustomerLogin  - | Welcome To ShopingApp...     |
+[main] 2021-08-20 13:36:06 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 13:36:06 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:36:06 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 13:36:14 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 13:36:25 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:36:25 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 13:36:26 INFO  presentation.customer.CustomerLogin  - 
+Login Sucessfull!!!
+[main] 2021-08-20 13:36:27 INFO  presentation.customer.CustomerLogin  - Please wait...Redirecting to your Dashboard
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:29 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:36:32 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:32 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:36:33 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:33 INFO  presentation.customer.CustomerDashboard  - |         All Categories       |
+[main] 2021-08-20 13:36:33 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:33 INFO  presentation.customer.CustomerDashboard  - | 1. laptops
+[main] 2021-08-20 13:36:33 INFO  presentation.customer.CustomerDashboard  - | 2. mobiles
+[main] 2021-08-20 13:36:33 INFO  presentation.customer.CustomerDashboard  - | 3. cloths
+[main] 2021-08-20 13:36:33 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:33 INFO  presentation.customer.CustomerDashboard  - | Enter your choice            |
+[main] 2021-08-20 13:36:35 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:35 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:36:35 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:35 INFO  presentation.product.ProductCategoryMenu  - |           Fashion            |
+[main] 2021-08-20 13:36:35 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:35 INFO  presentation.product.ProductCategoryMenu  - | 1. lenovo 400s
+[main] 2021-08-20 13:36:35 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:35 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice...         |
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - |       Product Details        |
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - | Product ID : 1
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - |                              
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - | Name : lenovo 400s
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - | Category : laptops
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - | Price : ₹40000.0
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - | Description :                
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - | 1. Add To Cart               |
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - | 2. Go back to Product List   |
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:38 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice            |
+[main] 2021-08-20 13:36:43 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:43 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:36:43 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:43 INFO  presentation.product.ProductCategoryMenu  - | Add Product Quantity         |
+[main] 2021-08-20 13:36:43 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:43 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice            |
+[main] 2021-08-20 13:36:50 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:36:50 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:36:51 INFO  presentation.product.ProductCategoryMenu  - Please wait...Redirecting to your Cart
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:53 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:36:57 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:57 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:36:58 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:37:03 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:03 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:04 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:37:08 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:08 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:09 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:37:24 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:24 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:37:25 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:25 INFO  presentation.customer.CustomerDashboard  - |         All Categories       |
+[main] 2021-08-20 13:37:25 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:25 INFO  presentation.customer.CustomerDashboard  - | 1. laptops
+[main] 2021-08-20 13:37:25 INFO  presentation.customer.CustomerDashboard  - | 2. mobiles
+[main] 2021-08-20 13:37:25 INFO  presentation.customer.CustomerDashboard  - | 3. cloths
+[main] 2021-08-20 13:37:25 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:25 INFO  presentation.customer.CustomerDashboard  - | Enter your choice            |
+[main] 2021-08-20 13:37:27 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:27 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:37:27 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:37:27 INFO  presentation.product.ProductCategoryMenu  - |           Mobiles            |
+[main] 2021-08-20 13:37:27 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:37:27 INFO  presentation.product.ProductCategoryMenu  - | 2. iphone 12
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:28 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:37:34 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:34 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:37:35 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:44:10 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 13:44:10 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 13:44:10 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:44:11 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 13:44:12 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 13:44:13 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 13:44:13 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 13:44:13 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 13:44:13 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 13:44:13 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 13:44:13 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:44:13 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 13:44:22 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 13:44:22 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 13:44:22 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 13:44:22 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 13:44:22 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 13:44:22 INFO  presentation.customer.CustomerLogin  - | Welcome To ShopingApp...     |
+[main] 2021-08-20 13:44:22 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 13:44:22 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:44:22 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 13:44:34 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 13:44:41 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:44:41 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 13:44:42 INFO  presentation.customer.CustomerLogin  - 
+Login Sucessfull!!!
+[main] 2021-08-20 13:44:43 INFO  presentation.customer.CustomerLogin  - Please wait...Redirecting to your Dashboard
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:44:46 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:44:50 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:44:50 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:44:51 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:44:51 INFO  presentation.customer.CustomerDashboard  - |         All Categories       |
+[main] 2021-08-20 13:44:51 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:44:51 INFO  presentation.customer.CustomerDashboard  - | 1. laptops
+[main] 2021-08-20 13:44:51 INFO  presentation.customer.CustomerDashboard  - | 2. mobiles
+[main] 2021-08-20 13:44:51 INFO  presentation.customer.CustomerDashboard  - | 3. cloths
+[main] 2021-08-20 13:44:51 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:44:51 INFO  presentation.customer.CustomerDashboard  - | Enter your choice            |
+[main] 2021-08-20 13:44:53 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:44:53 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:44:53 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:53 INFO  presentation.product.ProductCategoryMenu  - |           Fashion            |
+[main] 2021-08-20 13:44:53 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:53 INFO  presentation.product.ProductCategoryMenu  - | 1. lenovo 400s
+[main] 2021-08-20 13:44:53 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:53 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice...         |
+[main] 2021-08-20 13:44:55 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:55 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - |       Product Details        |
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - | Product ID : 1
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - |                              
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - | Name : lenovo 400s
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - | Category : laptops
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - | Price : ₹40000.0
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - | Description :                
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - | 1. Add To Cart               |
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - | 2. Go back to Product List   |
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:56 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice            |
+[main] 2021-08-20 13:44:58 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:58 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:44:58 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:58 INFO  presentation.product.ProductCategoryMenu  - | Add Product Quantity         |
+[main] 2021-08-20 13:44:58 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:44:58 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice            |
+[main] 2021-08-20 13:45:02 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:45:02 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:45:02 WARN  dao.implementation.CartDAOImpl  - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+[main] 2021-08-20 13:45:02 WARN  presentation.CartMenu  - Internal error occurred! contact systemAdmin
+[main] 2021-08-20 13:45:02 INFO  presentation.product.ProductCategoryMenu  - Please wait...Redirecting to your Cart
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:45:05 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:50:31 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 13:50:31 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 13:50:31 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:50:32 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 13:50:33 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 13:50:34 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 13:50:34 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 13:50:34 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 13:50:34 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 13:50:34 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 13:50:34 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:50:34 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 13:50:41 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 13:50:41 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 13:50:41 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 13:50:41 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 13:50:41 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 13:50:41 INFO  presentation.customer.CustomerLogin  - | Welcome To ShopingApp...     |
+[main] 2021-08-20 13:50:41 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 13:50:41 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:50:41 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 13:50:47 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 13:50:55 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:50:55 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 13:50:56 INFO  presentation.customer.CustomerLogin  - 
+Login Sucessfull!!!
+[main] 2021-08-20 13:50:57 INFO  presentation.customer.CustomerLogin  - Please wait...Redirecting to your Dashboard
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:51:00 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:51:03 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:51:03 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:51:04 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:51:04 INFO  presentation.customer.CustomerDashboard  - |         All Categories       |
+[main] 2021-08-20 13:51:04 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:51:04 INFO  presentation.customer.CustomerDashboard  - | 1. laptops
+[main] 2021-08-20 13:51:04 INFO  presentation.customer.CustomerDashboard  - | 2. mobiles
+[main] 2021-08-20 13:51:04 INFO  presentation.customer.CustomerDashboard  - | 3. cloths
+[main] 2021-08-20 13:51:04 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:51:04 INFO  presentation.customer.CustomerDashboard  - | Enter your choice            |
+[main] 2021-08-20 13:51:07 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:51:07 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:51:07 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:07 INFO  presentation.product.ProductCategoryMenu  - |           Fashion            |
+[main] 2021-08-20 13:51:07 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:07 INFO  presentation.product.ProductCategoryMenu  - | 1. lenovo 400s
+[main] 2021-08-20 13:51:07 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:07 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice...         |
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - |       Product Details        |
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - | Product ID : 1
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - |                              
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - | Name : lenovo 400s
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - | Category : laptops
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - | Price : ₹40000.0
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - | Description :                
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - | 1. Add To Cart               |
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - | 2. Go back to Product List   |
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:09 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice            |
+[main] 2021-08-20 13:51:13 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:13 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:51:13 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:13 INFO  presentation.product.ProductCategoryMenu  - | Add Product Quantity         |
+[main] 2021-08-20 13:51:13 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:13 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice            |
+[main] 2021-08-20 13:51:17 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:51:17 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:51:17 WARN  dao.implementation.CartDAOImpl  - java.sql.SQLSyntaxErrorException: Unknown column 'cartProductId' in 'field list'
+[main] 2021-08-20 13:51:17 WARN  presentation.CartMenu  - Internal error occurred! contact systemAdmin
+[main] 2021-08-20 13:51:17 INFO  presentation.product.ProductCategoryMenu  - Please wait...Redirecting to your Cart
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:51:19 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:52:57 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:52:57 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:52:58 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:52:58 INFO  presentation.customer.CustomerDashboard  - |         All Categories       |
+[main] 2021-08-20 13:52:58 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:52:58 INFO  presentation.customer.CustomerDashboard  - | 1. laptops
+[main] 2021-08-20 13:52:58 INFO  presentation.customer.CustomerDashboard  - | 2. mobiles
+[main] 2021-08-20 13:52:58 INFO  presentation.customer.CustomerDashboard  - | 3. cloths
+[main] 2021-08-20 13:52:58 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:52:58 INFO  presentation.customer.CustomerDashboard  - | Enter your choice            |
+[main] 2021-08-20 13:53:00 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:53:00 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:53:00 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:00 INFO  presentation.product.ProductCategoryMenu  - |           Fashion            |
+[main] 2021-08-20 13:53:00 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:00 INFO  presentation.product.ProductCategoryMenu  - | 1. lenovo 400s
+[main] 2021-08-20 13:53:00 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:00 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice...         |
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - |       Product Details        |
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - | Product ID : 1
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - |                              
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - | Name : lenovo 400s
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - | Category : laptops
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - | Price : ₹40000.0
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - | Description :                
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - | 1. Add To Cart               |
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - | 2. Go back to Product List   |
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:02 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice            |
+[main] 2021-08-20 13:53:04 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:04 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:53:04 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:04 INFO  presentation.product.ProductCategoryMenu  - | Add Product Quantity         |
+[main] 2021-08-20 13:53:04 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:04 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice            |
+[main] 2021-08-20 13:53:06 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:53:06 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:53:06 WARN  dao.implementation.CartDAOImpl  - java.sql.SQLSyntaxErrorException: Unknown column 'cartProductId' in 'field list'
+[main] 2021-08-20 13:53:06 WARN  presentation.CartMenu  - Internal error occurred! contact systemAdmin
+[main] 2021-08-20 13:53:06 INFO  presentation.product.ProductCategoryMenu  - Please wait...Redirecting to your Cart
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:53:09 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:53:49 INFO  presentation.Main  - +---------------------------------------- +
+[main] 2021-08-20 13:53:49 INFO  presentation.Main  - |     Welcome To MenuDrivenShoppingApp    |
+[main] 2021-08-20 13:53:49 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:53:50 INFO  presentation.Main  - |          Come for what you love.        |
+[main] 2021-08-20 13:53:51 INFO  presentation.Main  - |       Stay for what you discover.       |
+[main] 2021-08-20 13:53:52 INFO  presentation.Main  - |                                         |
+[main] 2021-08-20 13:53:52 INFO  presentation.Main  - |     1. New Customer Registration        |
+[main] 2021-08-20 13:53:52 INFO  presentation.Main  - |     2. Customer Login                   |
+[main] 2021-08-20 13:53:52 INFO  presentation.Main  - |     3. Employee Login                   |
+[main] 2021-08-20 13:53:52 INFO  presentation.Main  - |     4. Exit                             |
+[main] 2021-08-20 13:53:52 INFO  presentation.Main  - +-----------------------------------------+
+[main] 2021-08-20 13:53:52 INFO  presentation.Main  - |     Choose your option :            |
+[main] 2021-08-20 13:53:55 INFO  presentation.Main  - +---------------------------------+
+[main] 2021-08-20 13:53:55 INFO  presentation.customer.CustomerLogin  - 
+[main] 2021-08-20 13:53:55 INFO  presentation.customer.CustomerLogin  - +-------------------------------- +
+[main] 2021-08-20 13:53:55 INFO  presentation.customer.CustomerLogin  - |         Login Customer          |
+[main] 2021-08-20 13:53:55 INFO  presentation.customer.CustomerLogin  - +--------------------------------+
+[main] 2021-08-20 13:53:55 INFO  presentation.customer.CustomerLogin  - | Welcome To ShopingApp...     |
+[main] 2021-08-20 13:53:55 INFO  presentation.customer.CustomerLogin  - | Please enter your details..     |
+[main] 2021-08-20 13:53:55 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:53:55 INFO  presentation.customer.CustomerLogin  - | Enter Username :                |
+[main] 2021-08-20 13:54:02 INFO  presentation.customer.CustomerLogin  - | Enter Password :                |
+[main] 2021-08-20 13:54:10 INFO  presentation.customer.CustomerLogin  - |                                 |
+[main] 2021-08-20 13:54:10 INFO  presentation.customer.CustomerLogin  - +---------------------------------+
+[main] 2021-08-20 13:54:11 INFO  presentation.customer.CustomerLogin  - 
+Login Sucessfull!!!
+[main] 2021-08-20 13:54:12 INFO  presentation.customer.CustomerLogin  - Please wait...Redirecting to your Dashboard
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:15 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:54:18 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:18 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:54:19 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:19 INFO  presentation.customer.CustomerDashboard  - |         All Categories       |
+[main] 2021-08-20 13:54:19 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:19 INFO  presentation.customer.CustomerDashboard  - | 1. laptops
+[main] 2021-08-20 13:54:19 INFO  presentation.customer.CustomerDashboard  - | 2. mobiles
+[main] 2021-08-20 13:54:19 INFO  presentation.customer.CustomerDashboard  - | 3. cloths
+[main] 2021-08-20 13:54:19 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:19 INFO  presentation.customer.CustomerDashboard  - | Enter your choice            |
+[main] 2021-08-20 13:54:23 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:23 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:54:23 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:23 INFO  presentation.product.ProductCategoryMenu  - |           Mobiles            |
+[main] 2021-08-20 13:54:23 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:23 INFO  presentation.product.ProductCategoryMenu  - | 2. iphone 12
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:24 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:54:32 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:32 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:54:33 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:33 INFO  presentation.customer.CustomerDashboard  - |         All Categories       |
+[main] 2021-08-20 13:54:33 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:33 INFO  presentation.customer.CustomerDashboard  - | 1. laptops
+[main] 2021-08-20 13:54:33 INFO  presentation.customer.CustomerDashboard  - | 2. mobiles
+[main] 2021-08-20 13:54:33 INFO  presentation.customer.CustomerDashboard  - | 3. cloths
+[main] 2021-08-20 13:54:33 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:33 INFO  presentation.customer.CustomerDashboard  - | Enter your choice            |
+[main] 2021-08-20 13:54:35 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:35 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:54:35 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:35 INFO  presentation.product.ProductCategoryMenu  - |           Fashion            |
+[main] 2021-08-20 13:54:35 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:35 INFO  presentation.product.ProductCategoryMenu  - | 1. lenovo 400s
+[main] 2021-08-20 13:54:35 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:35 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice...         |
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - |       Product Details        |
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - | Product ID : 1
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - |                              
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - | Name : lenovo 400s
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - | Category : laptops
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - | Price : ₹40000.0
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - | Description :                
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - | 1. Add To Cart               |
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - | 2. Go back to Product List   |
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:37 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice            |
+[main] 2021-08-20 13:54:39 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:39 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:54:39 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:39 INFO  presentation.product.ProductCategoryMenu  - | Add Product Quantity         |
+[main] 2021-08-20 13:54:39 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:39 INFO  presentation.product.ProductCategoryMenu  - | Enter your choice            |
+[main] 2021-08-20 13:54:41 INFO  presentation.product.ProductCategoryMenu  - +------------------------------+
+[main] 2021-08-20 13:54:41 INFO  presentation.product.ProductCategoryMenu  - 
+[main] 2021-08-20 13:54:41 INFO  presentation.CartMenu  - lenovo 400s is added to your cart successfully!!!
+[main] 2021-08-20 13:54:42 INFO  presentation.product.ProductCategoryMenu  - Please wait...Redirecting to your Cart
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:44 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |
+[main] 2021-08-20 13:54:47 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:47 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - 
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - |          Dashboard           |
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - | Hello..!!                    |
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - | Welcome 					 |
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - |                              |
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - | 1. My Account                |
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - | 2. My Orders                 |
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - | 3. My Cart                   |
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - | 4. All Categories            |
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - | 5. LogOut                    |
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - +------------------------------+
+[main] 2021-08-20 13:54:48 INFO  presentation.customer.CustomerDashboard  - | Enter your choice :          |

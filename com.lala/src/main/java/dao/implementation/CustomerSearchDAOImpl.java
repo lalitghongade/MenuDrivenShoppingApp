@@ -20,15 +20,15 @@ public class CustomerSearchDAOImpl implements CustomerSearchDAO {
 		// TODO Auto-generated method stub
 		  Customer customer = new Customer();
 	        try(Connection connection = MySQLDBConnection.getConnection()) {
-	            String sql = "SELECT customerId, customerName, customerUsername, customerPassword FROM customer";
+	            String sql = "SELECT customerId, name, username, password FROM customers";
 	            PreparedStatement preparedStatement = connection.prepareStatement(sql);
 	            ResultSet resultSet = preparedStatement.executeQuery();
 
 	            if (resultSet.next()) {
 	                customer.setCustomerId(resultSet.getInt("customerId"));
-	                customer.setCustomerName(resultSet.getString("customerName"));
-	                customer.setCustomerUsername(resultSet.getString("customerUsername"));
-	                customer.setCustomerPassword(resultSet.getString("customerPassword"));
+	                customer.setCustomerName(resultSet.getString("name"));
+	                customer.setCustomerUsername(resultSet.getString("username"));
+	                customer.setCustomerPassword(resultSet.getString("password"));
 	            }
 
 	        } catch (ClassNotFoundException | SQLException e) {

@@ -20,7 +20,7 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
     public List<Product> searchProductByCategory(int productCategory) throws BusinessException {
         List<Product> productList = new ArrayList<>();
         try(Connection connection = MySQLDBConnection.getConnection()) {
-            String sql = "SELECT pr.productId, pr.productName, pr.productPrice, pc.productCategoryId, pc.productCategoryName FROM product pr JOIN productCategory pc ON pr.productCategoryId = pc.productCategoryId WHERE pr.productCategoryId = ?";
+            String sql = "SELECT pr.productId, pr.productName, pr.productPrice, pc.productCategoryid, pc.productCategoryName FROM products pr JOIN productCategory pc ON pr.productCategoryId = pc.productCategoryid WHERE pr.productCategoryId = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1, productCategory);
             ResultSet resultSet = preparedStatement.executeQuery();
@@ -30,9 +30,9 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
                 product.setProductId(resultSet.getInt("productId"));
                 product.setProductName(resultSet.getString("productName"));
                 product.setProductPrice(resultSet.getDouble("productPrice"));
-                productCategoryObj.setProductCategoryId(resultSet.getInt("productCategoryId"));
+                productCategoryObj.setProductCategoryId(resultSet.getInt("productCategoryid"));
                 productCategoryObj.setProductCategoryName(resultSet.getString("productCategoryName"));
-                product.setCategory(productCategoryObj);
+                product.setProductCategory(productCategoryObj);
                 productList.add(product);
             }
         } catch (ClassNotFoundException | SQLException e) {
@@ -46,7 +46,7 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
     public Product searchProductByProductAndCategory(int productChoice, int productCategoryChoice) throws BusinessException {
         Product product = new Product();
         try(Connection connection = MySQLDBConnection.getConnection()) {
-            String sql = "SELECT pr.productId, pr.productName, pr.productPrice, pc.productCategoryId, pc.productCategoryName FROM product pr JOIN productCategory pc ON pr.productCategoryId = pc.productCategoryId WHERE pr.productId = ? AND pr.productCategoryId = ?";
+            String sql = "SELECT pr.productId, pr.productName, pr.productPrice, pc.productCategoryid, pc.productCategoryName FROM products pr JOIN productCategory pc ON pr.productCategoryId = pc.productCategoryid WHERE pr.productId = ? AND pr.productCategoryId = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1, productChoice);
             preparedStatement.setInt(2, productCategoryChoice);
@@ -57,9 +57,9 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
                 product.setProductId(resultSet.getInt("productId"));
                 product.setProductName(resultSet.getString("productName"));
                 product.setProductPrice(resultSet.getDouble("productPrice"));
-                productCategoryObj.setProductCategoryId(resultSet.getInt("productCategoryId"));
+                productCategoryObj.setProductCategoryId(resultSet.getInt("productCategoryid"));
                 productCategoryObj.setProductCategoryName(resultSet.getString("productCategoryName"));
-                product.setCategory(productCategoryObj);
+                product.setProductCategory(productCategoryObj);
             }
         } catch (ClassNotFoundException | SQLException e) {
             log.warn(e);
@@ -67,4 +67,28 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
         }
         return product;
     }
+
+	@Override
+	public Product searchProductByProductId(int productId) throws BusinessException {
+		  Product product = new Product();
+	        try(Connection connection = MySQLDBConnection.getConnection()) {
+	            String sql = "SELECT pr.productId, pr.productName, pr.productPrice, pc.productCategoryid, pc.productCategoryName FROM products pr JOIN productCategory pc ON pr.productCategoryId = pc.productCategoryid WHERE pr.productId = ?";
+	            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+	            preparedStatement.setInt(1, productId);
+	            ResultSet resultSet = preparedStatement.executeQuery();
+	            if (resultSet.next()) {
+	                ProductCategory productCategoryObj = new ProductCategory();
+	                product.setProductId(resultSet.getInt("productId"));
+	                product.setProductName(resultSet.getString("productName"));
+	                product.setProductPrice(resultSet.getDouble("productPrice"));
+	                productCategoryObj.setProductCategoryId(resultSet.getInt("productCategoryid"));
+	                productCategoryObj.setProductCategoryName(resultSet.getString("productCategoryName"));
+	                product.setProductCategory(productCategoryObj);
+	            }
+	        } catch (ClassNotFoundException | SQLException e) {
+	            log.warn(e);
+	            throw new BusinessException("Internal error occurred! contact systemAdmin");
+	        }
+	        return product;
+	}
 }

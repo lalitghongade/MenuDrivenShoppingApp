@@ -31,4 +31,11 @@ public class ProductSearchService implements ProductSearchServiceDAO{
         }
         return product;
     }
+
+	@Override
+	public Product searchProductByProductId(int productId) throws BusinessException {
+		 Product product;
+	        product = productSearchDAO.searchProductByProductId(productId);
+	        return product;
+	        }
 }
