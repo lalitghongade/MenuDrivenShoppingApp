@@ -29,7 +29,9 @@
 
 ## Getting Started
 1. On GitHub, navigate to the main page of the repository.
+
 2. Above the list of files, click  Code.
+
 3. To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click . To clone a repository using GitHub CLI, click Use GitHub CLI, then click .
 
 4. Open Git Bash.
@@ -38,11 +40,10 @@
 ```github
 git clone https://github.com/lalitghongade/MenuDrivenShoppingApp
 ```
-``
-6. Type git clone, and then paste the URL you copied earlier.
-7. Press Enter to create your local clone.
+6. Type git clone, and then paste the URL you copied earlier,and Press Enter to create your local clone.
 
-8. ### Usage
+
+### Usage
 1. Select MenuDrivenShoppingApp project.
 2. run Main.java , here you have it.
 3. You will see the results in console itself.
