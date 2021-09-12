@@ -1,4 +1,9 @@
 # MenuDrivenShoppingApp
+## Description
+   
+   The MenuDrivenShoppingAppis a console-based menu driven application that simulates online shopping experience. An employee can add Products. A Customer can place order on the products. The employee delivers the Product to the Customer.
+
+
 
 ## Features
 *	User can login.
